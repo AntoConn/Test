@@ -1,0 +1,32 @@
+<!-- <mat-toolbar color='primary'>Posts</mat-toolbar> -->
+<!-- <app-post-create></app-post-create>
+<app-post-details></app-post-details> -->
+<!-- <div class="button-row">
+  <a mat-raised-button color="primary" [routerLink]="['/']"><mat-icon>add</mat-icon></a>
+</div> -->
+<mat-toolbar color > 
+            <span class="title-center">
+        D&D
+    </span>
+
+ <!-- <button mat-button [routerLink]="['/create']" color="Warn">Create a Character</button>-->
+  <button mat-button >Create a Character</button>
+  <button mat-button [routerLink]="['/list']">List all Characters</button>
+ </mat-toolbar>
+ 
+
+<h4>
+ Create a Character
+</h4>
+
+<button mat-button [routerLink]="['/create']" color="Warn">Submit Character</button>
+
+<!--<button mat-button color="primary" [matMenuTriggerFor]="menu">Posts Menu</button>
+<mat-menu color="primary" #menu="matMenu">
+  <button color="primary" mat-menu-item [routerLink]="['/create']">Create</button>
+  <button color="primary"mat-menu-item [routerLink]="['/']">List</button>
+</mat-menu> -->
+  
+ 
+
+<router-outlet></router-outlet>
